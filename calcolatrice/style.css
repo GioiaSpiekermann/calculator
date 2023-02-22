@@ -1,0 +1,110 @@
+.top-bar {
+  height: 70px;
+  background-color: #232323;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.heading {
+  color: #ebebeb;
+  line-height: 15px;
+  font-family: "Montserrat";
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+span {
+  color: #ff5f0f;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #232323;
+  border: 1px solid #646464;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen {
+  width: 100%;
+  font-size: 30px;
+  text-align: right;
+  padding: 2px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-self: center;
+  background-color: #ebebeb;
+  border-radius: 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 100px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #949494;
+}
+
+.res {
+  background-color: #ff5f0f;
+}
+
+.plus,
+.minus,
+.mol,
+.div {
+  background-color: #ebebeb;
+}
+
+.ce {
+  color: #646464;
+}
+
+.plus:hover {
+  background-color: #ffffff;
+}
+.minus:hover {
+  background-color: #ffffff;
+}
+.mol:hover {
+  background-color: #ffffff;
+}
+.div:hover {
+  background-color: #ffffff;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  text-align: center;
+}
